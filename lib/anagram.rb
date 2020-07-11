@@ -9,9 +9,7 @@ class Anagram
   def match(array)
     if array.select {|word| word.reverse == word}
       return word
-      else 
-        return
-      end
+      else
     end
   end
 end
