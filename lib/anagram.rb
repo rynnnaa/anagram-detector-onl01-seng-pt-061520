@@ -7,6 +7,6 @@ class Anagram
   end
   
   def match(array)
-    array.select do{|word| word.reverse == word}
+    array.select {|word| word.reverse == word}
   end
 end
