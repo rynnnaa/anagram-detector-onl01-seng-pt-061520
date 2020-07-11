@@ -10,7 +10,7 @@ class Anagram
     if array.select {|word| word.reverse == word}
       return word
       else 
-        return []
+        return
       end
     end
   end
